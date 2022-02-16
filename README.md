@@ -33,3 +33,11 @@ $ python application.py
 ```
 
 The applications will always running on http://localhost:5000.
+
+## Access the deployed API
+```
+https://dineshare-matching.herokuapp.com/match
+
+```
+this path accepts a POST request with content-type=json
+and the body of the request must be in this format: https://github.com/dineShare/dineShareAPI/blob/recommendation_engine/Recommendation_Engine/python/operation.txt
