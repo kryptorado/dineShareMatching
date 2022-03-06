@@ -5,7 +5,7 @@ from utils.remap_ids import remap_ids
 from utils.read_json import read_json
 
 RANK_RANGE = 5
-THRESHOLD_COMPATIBILITY = 0.2
+THRESHOLD_COMPATIBILITY = 0.01
 
 def get_match_results(json_dict):
     user_preferences, num_interests, num_users = read_json(json_dict, RANK_RANGE)
